@@ -2,7 +2,13 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        sans: ['Pretendard', 'Inter', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+        roboto: ['Roboto', 'sans-serif']
+      }
+    }
   },
   plugins: [require('daisyui')]
 }
