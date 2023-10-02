@@ -8,6 +8,6 @@
 <li>
   <a href={url} class="border-0 rounded-full btn" style="background: {color}">
     <Icon class="w-6 h-6" />
-    <span class="text-lg">{name}</span>
+    <span class="text-lg font-medium">{name}</span>
   </a>
 </li>

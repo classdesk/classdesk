@@ -15,6 +15,6 @@
         <Star class="w-6 h-6" />
       </button>
     </div>
-    <span class="w-full text-lg font-normal text-left">{name}</span>
+    <span class="w-full text-lg font-medium text-left">{name}</span>
   </a>
 </li>
